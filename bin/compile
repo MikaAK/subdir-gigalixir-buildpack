@@ -3,8 +3,11 @@
 
 BUILD_DIR=${1:-}
 CACHE_DIR=${2:-}
+ENV_DIR=${3:-}
 
-echo $PROJECT_PATH
+echo $ENV_DIR
+echo $CACHE_DIR
+echo $BUILD_DIR
 exit 1
 
 
